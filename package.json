@@ -1,0 +1,19 @@
+{
+  "name": "iwantodev",
+  "version": "0.1.0",
+  "description": "iwantodev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jizhang80/iwantodev-backend.git"
+  },
+  "author": "jizhang80",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jizhang80/iwantodev-backend/issues"
+  },
+  "homepage": "https://github.com/jizhang80/iwantodev-backend#readme"
+}
