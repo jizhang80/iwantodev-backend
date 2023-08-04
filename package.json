@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jizhang80/iwantodev-backend/issues"
   },
-  "homepage": "https://github.com/jizhang80/iwantodev-backend#readme"
+  "homepage": "https://github.com/jizhang80/iwantodev-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
