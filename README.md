@@ -3,14 +3,22 @@ expressjs backend server with MongoDB
 
 author: Ji Zhang (Jimmy.Z)  
 
+# application structure
+/router    the main app router and business logical
+/model     data model define with mongoose
+/middleware  app tools
+/config    databases, or something else config
+server.js  system entrance
+app.js     system integration
+
 # installation
-[Express Installation](https://expressjs.com/en/starter/installing.html)
+## [Express Installation](https://expressjs.com/en/starter/installing.html)
 
 * 1 [Install Node.js](https://nodejs.org/en)
 * 2 ```$ npm init```
 * 3 ```$ npm install express```
 
-# config server.js
+## config server.js
 ```
 const express = require('express')
 const app = express()
@@ -25,5 +33,8 @@ app.listen(port, () => {
 })
 ```
 
-# start server
+## start server
 ```$ node server.js```
+
+## install mongoose
+```$ npm install mongoose```
