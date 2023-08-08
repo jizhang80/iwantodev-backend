@@ -38,3 +38,6 @@ app.listen(port, () => {
 
 ## install mongoose
 ```$ npm install mongoose```
+
+## install dotenv for local env parameters
+```npm install dotenv```
