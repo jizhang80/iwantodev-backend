@@ -11,12 +11,10 @@ author: Ji Zhang (Jimmy.Z)
 * ```server.js```  system entrance
 * ```app.js```     system integration
 
-# installation
-## [Express Installation](https://expressjs.com/en/starter/installing.html)
-
+# local env installation/configuration
 1. [Install Node.js](https://nodejs.org/en)
 2. ```$ npm init```
-3. ```$ npm install express```
+3. ```$ npm install express```[Express Installation](https://expressjs.com/en/starter/installing.html)
 4. start node server by sample 
     ##### config server.js
     ```
