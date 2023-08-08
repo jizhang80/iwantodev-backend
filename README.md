@@ -14,30 +14,30 @@ author: Ji Zhang (Jimmy.Z)
 # installation
 ## [Express Installation](https://expressjs.com/en/starter/installing.html)
 
-* 1 [Install Node.js](https://nodejs.org/en)
-* 2 ```$ npm init```
-* 3 ```$ npm install express```
-
-## config server.js
-```
-const express = require('express')
-const app = express()
-const port = 3000
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-```
-
-## start server
-```$ node server.js```
-
-## install mongoose
-```$ npm install mongoose```
-
-## install dotenv for local env parameters
-```npm install dotenv```
+1. [Install Node.js](https://nodejs.org/en)
+2. ```$ npm init```
+3. ```$ npm install express```
+4. start node server by sample 
+    ##### config server.js
+    ```
+    const express = require('express')
+    const app = express()
+    const port = 3000
+    
+    app.get('/', (req, res) => {
+      res.send('Hello World!')
+    })
+    
+    app.listen(port, () => {
+      console.log(`Example app listening on port ${port}`)
+    })
+    ```
+    
+    ###### start server
+    ```$ node server.js```
+5. install tools
+    ##### mongoose for mongodb ORM
+    ```$ npm install mongoose```
+    
+    ##### dotenv for local env parameters
+    ```npm install dotenv```
